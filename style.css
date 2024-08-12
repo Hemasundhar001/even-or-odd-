@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(orange,white,green)
+}
+
+.box{
+    margin: 10px 10px 10px 10px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10%;
+    border-color: white,green,;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    border: 2px solid rgb(39, 37, 37);
+}
+
+p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-color: orange,white,green;
+    margin-left: 35px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+}
+.reset{
+    margin: 5px 5px 0px 90px;
+}
+reset:hover{
+    border: solid rgb(242, 242, 243);
+    background-color: rgb(orange, white, green);
+    cursor: pointer;
+}
+
+button:hover{
+    border: solid rgb(242, 242, 243);
+    background-color: rgb(orange, white, green);
+    cursor: pointer;
+}
+strong{
+    font-size: 15px;
+}
